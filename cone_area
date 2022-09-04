@@ -1,0 +1,17 @@
+import java.util.Scanner;
+import static java.lang.Math.sqrt;
+class cone_area
+{
+public static void main(String[] args)
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the radius of cone: ");
+double r = sc.nextFloat();
+System.out.println("Enter the height of the cone : ");
+double h = sc.nextFloat();
+double a1 = 3.14f*r;
+double a2 = (r+sqrt(h*h+r*r));
+double a3 = a1*a2;
+System.out.println("Area of the cone : "+a3);
+}
+}

@@ -1,0 +1,18 @@
+import java.util.Scanner;
+class square_perimeter
+{
+public static void main(String[] args)
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter the length of one side in cm : ");
+float a = sc.nextFloat();
+System.out.println("Enter the length of second side in cm : ");
+float b = sc.nextFloat();
+System.out.println("Enter the length of third side in cm : ");
+float c = sc.nextFloat();
+System.out.println("Enter the length of fourth side in cm : ");
+float d = sc.nextFloat();
+float e = a+b+c+d;
+System.out.println("Perimeter of square is : "+e+" cm");
+}
+}
